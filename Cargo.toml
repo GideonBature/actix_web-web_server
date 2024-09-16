@@ -1,0 +1,9 @@
+[package]
+name = "actix_web-web_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+cargo-watch = "8.5.2"
+serde = { version = "1.0.210", features = ["derive"] }
